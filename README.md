@@ -11,3 +11,13 @@ COCOフォーマットのアノテーションと画像を受け取り、マス�
 ## config.yaml
 
 Please edit config.yaml according to your task.
+
+sample: 
+
+```yaml
+config:
+  imageDir: "./data/demo/images/base/original"
+  annotationPath: "./data/demo/annotations/annotation.json"
+  picCategory: "person"
+  karnelSize: 25
+```
