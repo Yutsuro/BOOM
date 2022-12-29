@@ -7,3 +7,7 @@ COCOフォーマットのアノテーションと画像を受け取り、マス�
 ## Quick Start
 
 `python BOOM.py`
+
+## config.yaml
+
+Please edit config.yaml according to your task.
