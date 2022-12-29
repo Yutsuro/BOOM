@@ -1,3 +1,9 @@
+# data
+data/*
+
+# test
+test/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -130,3 +136,4 @@ dmypy.json
 
 # VSCode
 .history
+.vscode
