@@ -1,5 +1,5 @@
 config:
-  imageDir: "./data/demo/images/base/original"
-  annotationPath: "./data/demo/annotations/annotation.json"
+  imageDir: "./data/sumo2/images/flip/original"
+  annotationPath: "data/sumo2/annotations/00001121 (1).json"
   picCategory: "person"
   karnelSize: 25
