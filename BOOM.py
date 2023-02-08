@@ -8,7 +8,7 @@ from pycocotools.coco import COCO
 from utils.load_config import load_config
 
 
-# function to get blur image
+# function to get blured image
 def blur_outside_of_mask(coco:COCO,img,annots,kernel_size=25):
 
      base_mask = np.zeros((img.shape[0],img.shape[1])).astype("bool")
@@ -45,7 +45,7 @@ def main():
                                    os.path.basename(config.imageDir))
      os.makedirs(image_save_dir, exist_ok=True)
 
-     # get and save blur images for each images
+     # get and save blured images for each images
      for i in range(len(image_ids)):
 
          image_id = image_ids[i]
@@ -56,7 +56,7 @@ def main():
          img_path = os.path.join(config.imageDir, image_name)
          img = cv2.imread(img_path)
 
-         # get blur image
+         # get blured image
          img_blur = blur_outside_of_mask(coco, img, annots, config.karnelSize)
 
          # save to blur directory
