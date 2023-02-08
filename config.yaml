@@ -1,5 +1,5 @@
 config:
-  imageDir: "./data/sumo2/images/flip/original"
-  annotationPath: "data/sumo2/annotations/00001121 (1).json"
+  imageDir: "data/htk20/images/flip/original"
+  annotationPath: "data/htk20/annotations/htk20_annotation_flip.json"
   picCategory: "person"
   karnelSize: 25
